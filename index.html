@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Metric/Imperial Unit Converter</title>
+  </head>
+  <body>
+    <main>
+      <div class="top">
+        <h1>
+          Metric/Imperial Unit <br />
+          <span>Converter</span>
+        </h1>
+        <input type="number" id="input" />
+        <button id="convertBtn">Convert</button>
+      </div>
+      <div class="bottom">
+        <div class="output">
+          <h2>Length</h2>
+          <p id="length">
+            <span>1 Meter</span>
+            <span>=</span>
+            <span>3.281 Feet</span>
+          </p>
+        </div>
+        <div class="output">
+          <h2>Volume</h2>
+          <p id="volume">
+            <span>1 Liter</span>
+            <span>=</span>
+            <span>0.264 Gallons</span>
+          </p>
+        </div>
+
+        <div class="output">
+          <h2>Mass</h2>
+          <p id="mass">
+            <span>1 Kilogram</span>
+            <span>=</span>
+            <span>2.204 Pounds</span>
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
